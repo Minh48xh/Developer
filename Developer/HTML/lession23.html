@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Cách tạo bảng trong HTML
+	</title>
+</head>
+<body>
+		<table border="1" cellpadding="5px">
+		<tr> <!tr là thẻ xác định hàng trong cột->
+			<th colspan="3">Thông tin người dùng</th> <!Colspan gộp bảng theo chiều ngang->
+      	</tr>
+		<tr>
+			 <td bgcolor="red">Trần Anh Đức</td><!td là thẻ xác định ô trong hàng màu nhạt hơn->
+      		<td>03/08/1993</td>
+      		<td>Nam</td>
+      	</tr>
+		<tr>
+			<td bgcolor="yellow">Ngô Văn Minh</td>
+      		<td>04/08/2001</td>
+      		<td>Nam</td>
+      	</tr>
+		<caption align="center">Database about member</caption>
+		</table>
+		<br> <br>
+		<table border="1">
+			<tr>
+				<th>STT</th>
+				<th>Họ và tên</th>
+				<th>Giáo viên chủ nhiệm</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>Ngô Văn Minh</td>
+				<td rowspan="2">Phạm Văn Hiếu</td>
+			</tr>
+			<tr>
+				<td bgcolor="red">2</td>
+				<td>Nguyễn Văn B</td>
+			</tr>
+				<caption align="center">Developer course</caption>
+		</table>
+</body>
+</html>
