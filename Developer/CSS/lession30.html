@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cách tạo hiệu ứng cho phần tử</title>
+	<style type="text/css">
+		div{
+			background-color: blue;
+			width: 50px;
+			height: 50px;
+			top: 0px;
+			left: 0px;
+			position: relative;
+			animation-name: move_right;
+			animation-duration: 10s;
+			animation-iteration-count: infinite;
+			}
+			@keyframes move_right{
+			0%{
+				top: 0px;
+				left: 0px;
+			}		
+			20%{
+				top:0px;
+				right: 500px;
+			}
+			
+			40%{
+				top: 400px;
+				right: 500px;
+			}
+			100%{
+				top: 0px
+				left: 0px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div></div>
+
+
+</body>
+</html>
