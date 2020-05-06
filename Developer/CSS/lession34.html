@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cách tạo độ ưu tiên</title>
+	<style type="text/css">
+		#green,#red,#black{
+			border: 2px solid;
+			width: 400px;
+			height: 400px;
+			position: absolute;
+			}		
+		#green{
+			background-color: green;
+			top: 0px;
+			left: 75px;
+			z-index: 6;
+		}
+		#red{
+			background-color: red;
+			top: 0px;
+			left: 100px;
+			z-index: 10;
+		}
+		#black{
+			background-color: black;
+			top: 0px;
+			left: 0px;
+		}
+	</style>
+</head>
+<body>
+	<div id="green"></div>
+	<div id="red"></div>
+	<div id="black"></div>
+</body>
+</html>
